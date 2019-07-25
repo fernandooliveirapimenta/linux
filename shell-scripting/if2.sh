@@ -54,6 +54,14 @@ if (( $a != 6 )); then
 fi
 
 
+#ou can combine conditions by using certain operators. For the single-bracket syntax that we’ve been using so far, you can use “-a” for and and “-o” for or. Example:
+if [ 1 == 1 -a 2 == 2 ]; then
+	echo "and exemple"
+fi
+
+if [ 1 == 2 -o 2 == 2 ]; then
+	echo "or exemple"
+fi
 
 
 
