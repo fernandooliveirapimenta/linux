@@ -1,0 +1,8 @@
+#printa  codigo do ultimo script executado
+which java
+echo $? 
+env
+
+sudo cp hello.sh /usr/bin
+
+export PATH=$PATH:/home/fernando/intelig/linux

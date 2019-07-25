@@ -1,0 +1,1 @@
+sudo cp hello.sh /usr/bin
